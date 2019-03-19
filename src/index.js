@@ -6,7 +6,6 @@ module.exports = function getZerosCount(number, base) {
     for (let i = 2; i <= Math.sqrt(base); i++) {
         ncount=1;
         while (base % i == 0) {
-          factors[i]=ncount;
             factors[i]=ncount;
             base /= i;
             ncount++;            
